@@ -30,14 +30,14 @@
       
       .box {
           width: 200px;
-          border: black 1px;
+          border: 10px black;
           height: 200px;
       }
       
       #box1 {
-          color: blue;
+          background-color: blue;
       }
       
       #box2 {
-          color: red;
+          background-color: red;
       }

@@ -8,7 +8,7 @@
           border: 1px solid blue;
       }
       
-      thead {
+      table thead {
           font-weight: bold;
       }
       
@@ -42,6 +42,6 @@
           background-color: red;
       }
       
-      tbody {
+      table tbody {
           background-color: pink
       }

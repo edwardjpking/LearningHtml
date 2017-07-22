@@ -30,7 +30,7 @@
       
       .box {
           width: 200px;
-          border: 10px black;
+          border: 10px solid black;
           height: 200px;
       }
       

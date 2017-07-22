@@ -5,7 +5,35 @@
 <head>
 
     <style>
-
+        table {
+            background-color: rgb(100, 50, 69);
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid blue
+        }
+        
+        .important {
+            font-weight: bold
+        }
+        
+        #row1 {
+            background-color: rgb(255, 0, 0)
+        }
+        
+        #row2 {
+            font-family: monospace
+        }
+        
+        #row3 {
+            text-align: right
+        }
+        
+        #row4 {
+            text-transform: uppercase
+        }
     </style>
 
 </head>
@@ -19,7 +47,7 @@
     <p>Message from Daddy</p>
     <table style="width:200">
         <thead>
-            <tr>
+            <tr class=important>
                 <th>
                     Driver Name
                 </th>
@@ -32,7 +60,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr id=row1>
                 <td>
                     Lewis Hamilton
                 </td>
@@ -43,7 +71,7 @@
                     British
                 </td>
             </tr>
-            <tr>
+            <tr id=row2>
                 <td>
                     Daniel Ricciardo
                 </td>
@@ -54,7 +82,7 @@
                     Australian
                 </td>
             </tr>
-            <tr>
+            <tr id=row3>
                 <td>
                     Max Verstappen
                 </td>
@@ -65,7 +93,7 @@
                     Dutch
                 </td>
             </tr>
-            <tr>
+            <tr id=row4>
                 <td>
                     Valteri Bottas
                 </td>

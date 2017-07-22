@@ -1,0 +1,43 @@
+      table {
+          background-color: rgb(100, 50, 69);
+      }
+      
+      table,
+      th,
+      td {
+          border: 1px solid blue;
+      }
+      
+      .important {
+          font-weight: bold;
+      }
+      
+      #row1 {
+          background-color: blue;
+      }
+      
+      #row2 {
+          font-family: monospace;
+      }
+      
+      #row3 {
+          text-align: right;
+      }
+      
+      #row4 {
+          text-transform: uppercase;
+      }
+      
+      .box {
+          width: 200px;
+          border: black 1px;
+          height: 200px;
+      }
+      
+      #box1 {
+          color: blue;
+      }
+      
+      #box2 {
+          color: red;
+      }

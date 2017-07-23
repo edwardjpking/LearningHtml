@@ -35,13 +35,15 @@
       }
       
       #box1 {
+          float: left;
           background-color: blue;
       }
       
       #box2 {
           background-color: red;
+          float: left;
       }
       
       table tbody {
-          background-color: pink
+          background-color: rgb(25, 25, 25)
       }

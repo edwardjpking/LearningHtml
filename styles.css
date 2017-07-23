@@ -32,16 +32,15 @@
           width: 200px;
           border: 10px solid black;
           height: 200px;
+          float: left;
       }
       
       #box1 {
-          float: left;
           background-color: blue;
       }
       
       #box2 {
           background-color: red;
-          float: left;
       }
       
       table tbody {

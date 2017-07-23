@@ -8,24 +8,12 @@
           border: 1px solid blue;
       }
       
+      table tbody {
+          background-color: rgb(25, 25, 25)
+      }
+      
       table thead {
           font-weight: bold;
-      }
-      
-      #row1 {
-          color: rgb(100, 100, 100)
-      }
-      
-      #row2 {
-          font-family: monospace;
-      }
-      
-      #row3 {
-          text-align: right;
-      }
-      
-      #row4 {
-          text-transform: uppercase;
       }
       
       .box {
@@ -39,10 +27,15 @@
           background-color: blue;
       }
       
-      #box2 {
+      .div-red {
           background-color: red;
       }
       
-      table tbody {
-          background-color: rgb(25, 25, 25)
+      .box #box3 {
+          clear: left;
+          position: absolute;
+      }
+      
+      .box #box1 #box2 {
+          position: relative;
       }

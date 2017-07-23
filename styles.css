@@ -20,22 +20,20 @@
           width: 200px;
           border: 10px solid black;
           height: 200px;
+      }
+      
+      .top .box {
           float: left;
       }
       
-      #box1 {
-          background-color: blue;
-      }
-      
-      .div-red {
+      .red {
           background-color: red;
       }
       
-      .box #box3 {
-          clear: left;
-          position: absolute;
+      .blue {
+          background-color: blue;
       }
       
-      .box #box1 #box2 {
-          position: relative;
+      .clear {
+          clear: left;
       }
